@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c58vw6g2ewrps"]
+
+[node name="HealthPack" type="Node3D" unique_id=166166386]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=704133716]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=974032345]

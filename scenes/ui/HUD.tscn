@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://b5vo1m12cqvp"]
+
+[node name="HUD" type="CanvasLayer" unique_id=1561648615]
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1214567690]
+offset_right = 4.0
+offset_bottom = 27.0
+
+[node name="Label" type="Label" parent="." unique_id=1118952219]
+offset_right = 40.0
+offset_bottom = 23.0
