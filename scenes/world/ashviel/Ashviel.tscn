@@ -1,3 +1,17 @@
 [gd_scene format=3 uid="uid://dbmmp0fxyy6ns"]
 
+[sub_resource type="NavigationMesh" id="NavigationMesh_cp51n"]
+vertices = PackedVector3Array(-24.5, 0.5, -24.5, -24.5, 0.5, 24.5, 24.5, 0.5, 24.5, 24.5, 0.5, -24.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_a6e2k"]
+size = Vector2(50, 50)
+
 [node name="Ashviel" type="Node3D" unique_id=727041278]
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=30195313]
+navigation_mesh = SubResource("NavigationMesh_cp51n")
+use_edge_connections = false
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D" unique_id=2123451107]
+mesh = SubResource("PlaneMesh_a6e2k")
