@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Ashes_of_Silicon"
+run/main_scene="uid://clpu571yyp1ey"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*uid://k17ybqgij5b5"
 
 [physics]
 
