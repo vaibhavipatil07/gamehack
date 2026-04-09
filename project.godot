@@ -10,14 +10,18 @@ config_version=5
 
 [application]
 
-config/name="HUD"
-run/main_scene="uid://c7nhkkx242mer"
+config/name="Ashes_of_Silicon"
+run/main_scene="uid://clpu571yyp1ey"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://HUD/icon.svg"
 
 [autoload]
 
 GameManager="*uid://bak6rnssr73hl"
+
+[autoload]
+
+Global="*uid://k17ybqgij5b5"
 
 [physics]
 
