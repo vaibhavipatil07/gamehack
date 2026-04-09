@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://2d3e4yyo38cj"]
+
+[node name="PhoneItem" type="Node3D" unique_id=100559906]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1588781684]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=254618394]

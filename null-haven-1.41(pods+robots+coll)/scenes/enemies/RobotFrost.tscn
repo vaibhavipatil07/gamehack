@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dfsgfa7w3iyn0"]
+
+[node name="RobotFrost" type="CharacterBody3D" unique_id=648390033]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=553983031]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=181664025]
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=821157103]

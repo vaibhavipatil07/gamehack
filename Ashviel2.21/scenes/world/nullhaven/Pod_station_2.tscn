@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dijkq72f61oie"]
+
+[ext_resource type="PackedScene" uid="uid://b25r5iq22jgis" path="res://scenes/world/nullhaven/sad_girl.glb" id="1_03er8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_17bk3"]
+transparency = 1
+albedo_color = Color(0, 0.6666667, 1, 0.39215687)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_03er8"]
+albedo_color = Color(0.9098039, 0.72156864, 0.6039216, 1)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_pec5t"]
+material = SubResource("StandardMaterial3D_03er8")
+radius = 0.3
+height = 1.8
+
+[node name="PodStation2" type="Node3D" unique_id=546509796]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=1809449200]
+material = SubResource("StandardMaterial3D_17bk3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CSGCylinder3D" unique_id=2023655860]
+mesh = SubResource("CapsuleMesh_pec5t")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="CSGCylinder3D" unique_id=1614571921]
+light_color = Color(0, 1, 0.8, 1)
+light_energy = 1.5
+light_size = 3.0
+
+[node name="Sketchfab_Scene" parent="." unique_id=974916114 instance=ExtResource("1_03er8")]
+transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, 0, 0.19433713, 0.025258482)

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://nuyxf8tqoix8"]
+
+[node name="GameOver" type="CanvasLayer" unique_id=732347967]
+
+[node name="Label" type="Label" parent="." unique_id=663698904]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Button" type="Button" parent="." unique_id=1333957799]
+offset_right = 8.0
+offset_bottom = 8.0

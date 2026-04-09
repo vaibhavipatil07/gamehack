@@ -1,0 +1,5 @@
+.godot/
+shader_cache/
+*.d3d12.cache
+*.import
+export/

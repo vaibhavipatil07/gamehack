@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bf0lsnmrmtwdw"]
+
+[node name="RobotPatrol" type="CharacterBody3D" unique_id=524618988]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1960012766]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1927383259]
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=1836422247]
