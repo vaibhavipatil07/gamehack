@@ -10,14 +10,10 @@ config_version=5
 
 [application]
 
-config/name="HUD"
-run/main_scene="uid://c7nhkkx242mer"
+config/name="GameOver"
+run/main_scene="uid://bpeh623bmvhrl"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://HUD/icon.svg"
-
-[autoload]
-
-GameManager="*uid://bak6rnssr73hl"
+config/icon="res://icon.svg"
 
 [physics]
 
