@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://26u474gd6jsc"]
-
-[node name="BossGuardian" type="CharacterBody3D" unique_id=546636489]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1125937886]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=757296509]
-
-[node name="NavigationAgent3D" type="NavigationAgent3D" parent="." unique_id=1113011364]
