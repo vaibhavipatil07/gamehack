@@ -1,7 +1,0 @@
-[gd_scene format=3 uid="uid://dtj53srwbd65"]
-
-[node name="FoodItem" type="Node3D" unique_id=742516000]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1659894343]
-
-[node name="Area3D" type="Area3D" parent="." unique_id=1236518460]
